@@ -1,0 +1,9 @@
+body{
+    background:linear-gradient(to right, #100f11, #454545);
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    justify-content:space-around;
+}

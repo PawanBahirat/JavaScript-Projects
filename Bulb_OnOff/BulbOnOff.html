@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bulb Assignment </title>
+    <link rel="stylesheet" href="style.css">
+<script>
+    var bulfStatus = false;
+    function turnOn(){
+        document.getElementById("bulb_1").src="https://www.w3schools.com/js/pic_bulbon.gif";
+    }
+    function turnOff(){
+        document.getElementById("bulb_1").src = "https://www.w3schools.com/js/pic_bulboff.gif";
+    }
+    function turnOnOrOff(){
+        if(bulfStatus == false) {
+            document.getElementById("bulb_2").src="https://www.w3schools.com/js/pic_bulbon.gif";
+            bulfStatus = true;
+        }else{
+            document.getElementById("bulb_2").src="https://www.w3schools.com/js/pic_bulboff.gif";
+            bulfStatus = false;
+        }
+    }
+</script>
+</head>
+<body>
+    <div class="container">
+        <div>
+    <img id="bulb_1" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+    <br>
+    <button onclick="turnOn()">Turn On</button>
+    <button onclick="turnOff()">Turn Off</button>
+</div>
+<div>
+    <img id="bulb_2" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+    <br>
+    <button onclick="turnOnOrOff()">Turn On/Off</button>
+</div>
+</div>
+</body> 
+</html>
