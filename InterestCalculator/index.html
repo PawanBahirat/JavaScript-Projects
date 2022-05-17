@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank Intrest Project</title>
+
+</head>
+
+<body>
+    <div class="bankBalanceDisplay">
+
+        <table id="tab">
+            <tr class="heading">
+                <th>Account Holder Name</th>
+                <th>Current Account Balance</th>
+                <th>Updated Account Balance</th>
+            </tr>
+            <tr>
+                <td class="holderName">Robin</td>
+                <td><input type="text" placeholder="Amount" class="input-balance"></td>
+                <td><input type="text" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="holderName">Sawarna</td>
+                <td><input type="text" placeholder="Amount" class="input-balance"></td>
+                <td><input type="text" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="holderName">Aryan</td>
+                <td><input type="text" placeholder="Amount" class="input-balance"></td>
+                <td><input type="text" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="holderName">Sonalika</td>
+                <td><input type="text" placeholder="Amount" class="input-balance"></td>
+                <td><input type="text" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="holderName">AbhiRaj</td>
+                <td><input type="text" placeholder="Amount" class="input-balance"></td>
+                <td><input type="text" class="display-updated-balance" disabled></td>
+            </tr>
+        </table>
+        <button class="btn" onclick="calculateIntrest()">Click Here To Calculate Balance After Intrest</button>
+    </div>
+
+    <div class="instruction">
+        <details>
+            <summary>Rules to calculate Intrest:- </summary>
+            <ul >
+                <li>Intrest Rate for Account Balance more than 2-Lakhs is 10% and maintanance charges apply as 0.2% of
+                    balance </li>
+                <li>Intrest Rate for Account Balance more than 1-Lakhs is 5% and maintanance charges apply as 0.05% of
+                    balance </li>
+                <li>Intrest Rate for Account Balance less than or Equals to 1-Lakhs is 3% and no maintanance charges
+                    apply </li>
+                </ul>
+        </details>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

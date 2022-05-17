@@ -1,0 +1,72 @@
+body{
+    background:linear-gradient(to right, #100f11, #454545);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bankBalanceDisplay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(32, 34, 34));
+}
+*{
+    border-radius: 20px;
+}
+.holderName{
+    color: rgb(117, 218, 173);
+}
+
+.heading{
+    font-weight: bolder;
+    color: #11d8e3;
+    border-bottom: 1px solid grey;
+}
+
+summary{
+    color: grey;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.instruction{
+    border-radius: 18%;
+    padding: 15px;
+    color: lightgrey;
+    background-color:rgba(89, 85, 85, 0.222);
+    display: inline-block;
+}
+
+#tab, tr, th, td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#tab th{
+    padding: 20px;
+}
+
+td input{
+    border-radius: 0%;
+    border-bottom: 2px solid darkgreen;
+    width: 12vw;
+    padding: 10px 20px;
+    color: lightgrey;
+    font-weight: bold;
+    background: transparent;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color:darkgrey;
+    border: none;
+    border-radius: 20px;    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #2d3536;
+    color: lightgreen;
+}
