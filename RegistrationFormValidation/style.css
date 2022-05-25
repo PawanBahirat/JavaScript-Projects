@@ -1,0 +1,20 @@
+
+body{
+  background:linear-gradient(to right, #100f11, #454545);
+  color: lightgrey;
+  
+}
+.registration-form{
+    width: 80%;
+    margin: 10% auto;
+    border-radius: 10px;
+    padding: 25px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(32, 34, 34));
+  }
+
+  input{
+    color: white;
+    border: none !important;
+    border-bottom: 2px solid green !important;
+  }
+  
